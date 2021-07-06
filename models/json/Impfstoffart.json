@@ -1,0 +1,4 @@
+{
+"ImpfstoffBez":{"type":"ImpfstoffBezT","stereotype":"enumeration","classAlias":"ImpfstoffBezT0","label":"ImpfstoffBez"},
+"Beschreibung":{"type":"string","stereotype":"primitive","label":"Beschreibung"}
+}

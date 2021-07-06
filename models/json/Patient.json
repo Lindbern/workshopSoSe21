@@ -1,0 +1,8 @@
+{
+"Nachname":{"type":"string","stereotype":"primitive","label":"Nachname"},
+"Name":{"type":"string","stereotype":"primitive","label":"Name"},
+"Geburtsdatum":{"type":"date","stereotype":"primitive","label":"Geburtsdatum"},
+"Telefonnummer":{"type":"string","stereotype":"primitive","label":"Telefonnummer"},
+"Adresse":{"type":"AdresseT","stereotype":"structure","group":"true","label":"AdresseT"},
+"_Impftermin":{"type":"foreign","stereotype":"relation","class":"Impftermin","classAlias":"Impftermin","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}

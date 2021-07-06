@@ -1,0 +1,5 @@
+{
+"Bezeichnung":{"type":"BezeichnungT","stereotype":"enumeration","classAlias":"BezeichnungT0","label":"Bezeichnung"},
+"dateiname":{"type":"fileT","stereotype":"structure","group":"true","label":"fileT"},
+"_Patient":{"type":"foreign","stereotype":"relation","class":"Patient","classAlias":"Patient","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}

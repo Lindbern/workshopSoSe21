@@ -1,0 +1,7 @@
+{
+"Termin":{"type":"date","stereotype":"primitive","label":"Termin"},
+"Aussage":{"type":"integer","stereotype":"primitive","label":"Aussage"},
+"Ausführung":{"type":"integer","stereotype":"primitive","label":"Ausführung"},
+"Impfbericht":{"type":"string","stereotype":"primitive","label":"Impfbericht"},
+"_Arzt":{"type":"foreign","stereotype":"relation","class":"Arzt","classAlias":"Arzt","renderAs": {"edit": {"required": "true"},"new": {"required": "true"}}, "join": "INNER"}
+}
